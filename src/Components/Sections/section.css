@@ -1,0 +1,26 @@
+.main-bg{
+    height: 85vh;
+    /* background-color: aqua; */
+}
+.hero_desc {
+    text-align: center;
+    font-size: 20px;
+}
+.hero-text {
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-section-four{
+    height: 200px;
+    width: 350px;
+}
+.card-section-four .content{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}

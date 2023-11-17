@@ -4,13 +4,13 @@ import image from "../../Components/images/avatar-img.png";
 
 const SectionTwo = () => {
   return (
-    <section id="about">
+    <section id="about" className="main-bg" style={{paddingTop:"150px"}}>
       <Container
         className="mt-4 pt-4"
         style={{ height: "85vh" }}
       >
-        <h1 className="text-center">About Me</h1>
-        <Row className="mt-5">
+        <h1 className="text-center" style={{color:"#0b0b0b"}}>About Me</h1>
+        <Row className="" style={{display:"flex",alignItems:"center",marginTop:"90px"}}>
           <div className="col-lg-4">
             <img
               src={image}
@@ -26,7 +26,7 @@ const SectionTwo = () => {
               quis aliquam undesed maiores sit! Hic molestiae optio iste iure earum amet nostrumquaerat facere quae veniam maiores
               harum iusto aperiam velinventore
             </p>
-            <Button>Download CV</Button>
+            <Button style={{color:"fffbef",backgroundColor:"#f8bc20",border:"none"}}>Download CV</Button>
           </div>
         </Row>
       </Container>

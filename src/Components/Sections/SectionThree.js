@@ -6,9 +6,9 @@ import { FaCode } from "react-icons/fa";
 const SectionThree = () => {
   return (
     <div>
-      <section id="services">
+      <section id="services" className="main-bg" style={{paddingTop: "100px"}}>
         <Container className="mt-4 pt-4" style={{ height: "85vh" }}>
-          <h1 className="text-center">Services</h1>
+          <h1 className="text-center" style={{color:"#0b0b0b"}}>Services</h1>
           <Row className="mt-5">
             <div className="col-lg-4">
               <Card>

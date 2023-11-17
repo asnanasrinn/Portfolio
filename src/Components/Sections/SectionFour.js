@@ -4,8 +4,8 @@ import { Card, Col, Container, Row } from "react-bootstrap";
 const SectionFour = () => {
   return (
     <div>
-      <section id="portfolio">
-        <Container className="" style={{ height: "85vh" }}>
+      <section id="portfolio" className="main-bg" style={{paddingTop:"100px"}}>
+        <Container className="" style={{ minHeight: "100vh" }}>
           <h1 className="text-center">Projects</h1>
           <div>
             <Row

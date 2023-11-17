@@ -1,0 +1,11 @@
+.header h2{
+    color: #0b0b0b;
+    font-weight: 600;
+}
+.navbar-nav .nav-link{
+    color: #0b0b0b;
+    font-weight: 500;
+}
+.navbar-nav .nav-link.active{
+    color: #f8bc20;
+}

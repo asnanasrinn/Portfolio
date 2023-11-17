@@ -4,11 +4,10 @@ import { Button, Card, Col, Container, Form, Row } from "react-bootstrap";
 const SectionFive = () => {
   return (
     <div>
-      <section className="contact" id="contact">
+      <section className="main-bg" id="contact" style={{paddingTop:"100px"}}>
         <div
           style={{
-            minHeight: "100vh",
-            display: "flex",
+            minHeight: "85vh",
             alignItems: "center",
           }}
         >
@@ -33,7 +32,7 @@ const SectionFive = () => {
                         <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"/>
                     </div>
                    </Form>
-                   <Button>Contact Me</Button>
+                   <Button style={{backgroundColor:"#f8bc20",border:"none",color:"#fffbef",marginTop:"10px"}}>Contact Me</Button>
             </div>
           </Container>
         </div>

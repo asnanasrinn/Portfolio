@@ -1,6 +1,6 @@
 .main-bg{
-    height: 85vh;
-    /* background-color: aqua; */
+    height: 100vh;
+    background-color: #fffbef;
 }
 .hero_desc {
     text-align: center;
@@ -13,6 +13,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: #dfdee3;
 }
 
 .card-section-four{
